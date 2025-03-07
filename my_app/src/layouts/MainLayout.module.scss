@@ -1,0 +1,32 @@
+.header {
+    padding: 0 12px;
+    /* 设置头部左右内边距为24px */
+    background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%) !important;
+
+    /* 头部左侧元素样式 */
+    .left {
+        float: left;
+        /* 左浮动 */
+    }
+
+    /* 头部右侧元素样式 */
+    .right {
+        float: right
+            /* 右浮动 */
+    }
+}
+
+.main {
+    /* 设置最小高度为视窗高度减去头部(64px)和底部(65px)的高度 */
+    min-height: calc(100vh - 64px - 65px);
+}
+
+.footer {
+    text-align: center;
+    /* 文本居中对齐 */
+    background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%) !important;
+
+    /* 设置浅灰色背景 */
+    // border-top: 1px solid hwb(336 4% 35%);
+    /* 添加顶部边框线 */
+}

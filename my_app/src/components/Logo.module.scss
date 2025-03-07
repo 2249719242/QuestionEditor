@@ -1,0 +1,12 @@
+.container {
+    min-width: 100;
+    margin: 12px 0; // 设置上下外边距为12px，左右外边距为0
+    //指网页中每行文字之间的距离,对于同一行内的不同内容，行高决定它们之间的间距。
+    line-height: 1; // 设置行高为1倍字体大小
+    text-align: left;
+
+    h1 {
+        font-size: 32px;
+        color: #f7f7f7;
+    }
+}

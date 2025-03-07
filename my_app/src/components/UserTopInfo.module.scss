@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  gap: 10px; // 按钮之间的间距
+  background-color: transparent;
+  margin: 16px 0;
+
+  .btn {
+    color: white;
+    align-items: center;
+    background-color: #1978f4; // 浅蓝色半透明背景
+    border: 1px solid #2509c14d; // 半透明白色边框
+    border-radius: 40px; // 增大圆角，接近椭圆形
+    font-size: 16px;
+    padding: 3px 15px; // 设置了均匀的内边距
+    transition: all 0.3s; // p添加过渡效果
+    box-shadow: 0 2px 8px rgba(64, 14, 181, 0.1); // 轻微阴影（可选）
+  }
+
+
+  .btn:hover {
+    color: #1890ff;
+    border-color: #1890ff; // 悬停时边框颜色变化
+    background-color: rgba(24, 144, 255, 0.2); // 悬停时背景颜色变化
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); // 增强悬停阴影（可选）    }
+  }
+}

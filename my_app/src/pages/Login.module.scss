@@ -1,0 +1,26 @@
+.container {
+  // padding: 200px;
+  height: calc(100vh - 64px - 65px);
+  // // background-color: #fff;
+  background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .form-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+    .label {
+      width: 100px;  // 固定标签宽度
+      text-align: right;  // 文字右对齐
+      padding-right: 10px;  // 文字和输入框之间的间距
+    }
+
+    .input {
+      width: 300px;  // 固定输入框宽度
+    }
+  }
+}
